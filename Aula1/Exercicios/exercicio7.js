@@ -28,14 +28,17 @@ for ( i = 0 ; i <= alturas.length ; i++ ){
         idades3.push(idades[i])
     }
 }
-alert(`Media das alturas1 ${mediaalturas1}`)
+alert(`Media das alturas1 ${alturas1}, idades ${idades1}`)
 
 for ( i = 0 ; i <= alturas1.length ; i++ ) {
     mediaalturas1 = mediaalturas1 + alturas1[i]
     mediaidades1 = mediaidades1 + idades1[i]
 }
+alert(`Media de altura após somada ${mediaalturas1}`)
 mediaalturas1 = ( mediaalturas1 / alturas1.length)
 mediaidades1 = ( mediaidades1 / idades1.length )
+
+
 
 for ( i = 0 ; i <= alturas1.length ; i++ ) {
     mediaalturas2 = mediaalturas2 + alturas2[i]
