@@ -16,7 +16,7 @@ let mediaidades2 = 0
 let mediaalturas3 = 0
 let mediaidades3 = 0
 
-for ( i = 0 ; i <= alturas.length ; i++ ){
+for ( i = 0; i < alturas.length ; i++ ){
     if ( opiniao[i] == 1 ) {
         alturas1.push(alturas[i])
         idades1.push(idades[i])
@@ -28,9 +28,9 @@ for ( i = 0 ; i <= alturas.length ; i++ ){
         idades3.push(idades[i])
     }
 }
-alert(`Media das alturas1 ${alturas1}, idades ${idades1}`)
+// alert(`Media das alturas1 ${alturas1}, idades ${idades1}`)
 
-for ( i = 0 ; i <= alturas1.length ; i++ ) {
+for ( i = 0 ; i < alturas1.length ; i++ ) {
     mediaalturas1 = mediaalturas1 + alturas1[i]
     mediaidades1 = mediaidades1 + idades1[i]
 }
@@ -40,14 +40,14 @@ mediaidades1 = ( mediaidades1 / idades1.length )
 
 
 
-for ( i = 0 ; i <= alturas1.length ; i++ ) {
+for ( i = 0 ; i < alturas1.length ; i++ ) {
     mediaalturas2 = mediaalturas2 + alturas2[i]
     mediaidades2 = mediaidades2 + idades2[i]
 }
 mediaalturas2 = mediaalturas2 / alturas2.length
 mediaidades2 = mediaidades2 / idades2.length
 
-for ( i = 0 ; i <= alturas3.length ; i++ ) {
+for ( i = 0 ; i < alturas3.length ; i++ ) {
     mediaalturas3 = mediaalturas3 + alturas3[i]
     mediaidades3 = mediaidades3 + idades3[i]
 }
